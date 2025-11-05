@@ -1,7 +1,7 @@
 %This script prompts the user to select a csv file saved by LabVIEW during
 %a baseline, which is used to build a model for real-time classification.
 
-%Select .CSV file to open
+%Select .CSV file to open (example_baseline_features.csv)
 [file_o,path_o]=uigetfile('*.csv','Select CSV containing baseline features:'); 
 %Read .CSV file
 data=csvread([path_o,file_o]);
