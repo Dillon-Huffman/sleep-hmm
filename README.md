@@ -28,7 +28,7 @@ MATLAB code for building and training HMM models.
 ### `matlab-simulate-model/` (not yet implemented)
 
 ~~MATLAB code for model simulation and validation.~~
-~~#### Main Script: simulateModel.m~~
+#### ~~Main Script: simulateModel.m~~
 ~~- Test HMM model performance on historical datasets~~
 ~~- Validate classifier accuracy against manual expert scoring~~
 ~~- Analyze sleep architecture and state transitions~~
