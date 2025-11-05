@@ -25,15 +25,15 @@ MATLAB code for building and training HMM models.
 - Reads LabVIEW generated features from CSV file
 - Saves model parameters to CSV for real-time implementation
 
-### `matlab-simulate-model/`
+### `matlab-simulate-model/` (not yet implemented)
 
-MATLAB code for model simulation and validation.
-#### Mai
-- Test HMM model performance on historical datasets
-- Validate classifier accuracy against manual expert scoring
-- Analyze sleep architecture and state transitions
-- Generate performance metrics (Cohen's Kappa, confusion matrices)
-
+~~MATLAB code for model simulation and validation.~~
+~~#### Main Script: simulateModel.m~~
+~~- Test HMM model performance on historical datasets~~
+~~- Validate classifier accuracy against manual expert scoring~~
+~~- Analyze sleep architecture and state transitions~~
+~~- Generate performance metrics (Cohen's Kappa, confusion matrices)~~
+  
 ### `labview-realtime-hmm/`
 LabVIEW implementation for real-time sleep scoring.
 #### Main File: Acquisition_BassShaker.vi
